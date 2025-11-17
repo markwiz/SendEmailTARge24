@@ -16,7 +16,7 @@ jobs:
             Hello teem,
             A hot single commits has been detectedd in your area. Ples review changes, and merg into main branch.
 
-            Hot single commit commited by: ${{github.event.pusher.name}}
+            Hot single commit scommited by: ${{github.event.pusher.name}}
             Changes: 
           to: "mmark.kuusik@gmail.com"
           from: "Github actions for $ {{github.repository}}"
