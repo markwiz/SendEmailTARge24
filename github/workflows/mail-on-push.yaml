@@ -14,7 +14,7 @@ jobs:
         subject: "ALERT, WE HAVE DETECTED HOT SINGLE COMMITS IN YOUR AREA ${{github.respository}}"
         body: |
           Hello teem,
-          A hot single commit has been detected in your area. Ples review changes, and merg into main branch.
+          A hot single commit has been detectedd in your area. Ples review changes, and merg into main branch.
 
           Hot single commit commited by: ${{github.event.pusher.name}}
           Changes: 
